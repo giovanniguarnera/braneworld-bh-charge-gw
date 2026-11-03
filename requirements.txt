@@ -1,0 +1,13 @@
+# Python 3.10. Versions used for the thesis runs.
+numpy==2.2.6
+scipy==1.15.2
+matplotlib==3.10.9
+lalsuite==7.26.15
+bilby==2.8.1
+dynesty==3.1.0
+corner==2.3.0
+pyseobnr==0.3.6      # remnant mass and spin fits (isco.py); needs the GSL library
+gwpy==3.0.14         # real-noise runs only
+gwosc==0.8.3         # real-noise runs only (catalog events in make_segments.py)
+pycbc==2.9.0         # Fig. 1 only (match in scripts/make_fig1.py)
+jupyterlab           # notebooks

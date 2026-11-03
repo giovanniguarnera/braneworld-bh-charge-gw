@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Figures written by scripts/make_fig1.py
+img/
+
+# Inference outputs (large: regenerate them with the scripts)
+bilby_inference/zero_noise/
+bilby_inference/with_noise/
+bilby_inference/shared_corner_plots/
+*_result.json
+*.pickle
+*_resume.pickle
+*_dynesty.pickle
+
+# Segment lists written by make_segments.py (only the injection times are tracked)
+bilby_inference/segments/*
+!bilby_inference/segments/injection_times.json
+
+# External data (see README)
+data/
+ET_sensitivity/*.txt
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
