@@ -1,5 +1,7 @@
 # braneworld-bh-charge-gw
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23925540.svg)](https://doi.org/10.5281/zenodo.23925540)
+
 Code for the master's thesis *Constraining the braneworld charge of black
 holes using gravitational waves* (Giovanni Guarnera, University of Bologna, 2026).
 
@@ -199,6 +201,15 @@ python bilby_inference/scripts/shared_corner_plots.py --dir-a zero_noise/outdir_
 - LIGO O5 design sensitivity: [LIGO-T2500310](https://dcc.ligo.org/LIGO-T2500310).
 - Einstein Telescope sensitivity curves: https://gitlab.et-gw.eu/pub/et-sensitivity-curves;
   2L configuration: [arXiv:2303.15923](https://arxiv.org/abs/2303.15923).
+
+## How to cite
+
+If you use this code, please cite it as:
+
+> G. Guarnera, *Code for the thesis 'Constraining the braneworld charge of black holes using
+> gravitational waves'*, Zenodo (2026), [doi:10.5281/zenodo.23925540](https://doi.org/10.5281/zenodo.23925540).
+
+The citation metadata are also in `CITATION.cff` ("Cite this repository" on GitHub).
 
 ## Acknowledgments
 

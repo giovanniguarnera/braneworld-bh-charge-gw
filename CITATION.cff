@@ -11,6 +11,7 @@ authors:
     given-names: Giovanni
     affiliation: University of Bologna
 license: MIT
+doi: "10.5281/zenodo.23925541"
 repository-code: "https://github.com/giovanniguarnera/braneworld-bh-charge-gw"
 keywords:
   - gravitational waves
