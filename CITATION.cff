@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "braneworld-bh-charge-gw"
+abstract: >-
+  TaylorF2 waveform with the tidal heating phase correction of braneworld-charged
+  black holes, and bilby injection and parameter estimation studies (LIGO O5c,
+  real O4b noise, Einstein Telescope). Code for the master's thesis "Constraining
+  the braneworld charge of black holes using gravitational waves".
+authors:
+  - family-names: Guarnera
+    given-names: Giovanni
+    affiliation: University of Bologna
+license: MIT
+repository-code: "https://github.com/giovanniguarnera/braneworld-bh-charge-gw"
+keywords:
+  - gravitational waves
+  - braneworld
+  - black holes
+  - tidal heating
+  - bilby
